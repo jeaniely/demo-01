@@ -65,13 +65,13 @@ public class Homeword_01 {
         }else if(salary<=8000){
             System.out.println("交税："+((salary-5000)*0.03));
         }else if(salary<=17000){
-            System.out.println("交税："+((salary-5000)*0.1));
+            System.out.println("交税："+((salary-8000)*0.1)+3000*0.03);
         }else if(salary<=30000){
-            System.out.println("交税："+((salary-5000)*0.2));
+            System.out.println("交税："+((salary-17000)*0.2+(17000-8000)*0.1+3000*0.03));
         }else if(salary<=40000){
-            System.out.println("交税："+((salary-5000)*0.25));
+            System.out.println("交税："+((salary-30000)*0.25+(30000-17000)*0.2+(17000-8000)*0.1+3000*0.03));
         }else if(salary<=60000){
-            System.out.println("交税："+((salary-5000)*0.3));
+            System.out.println("交税："+(salary-40000)*0.3+(40000-30000)*0.25+(30000-17000)*0.2+(17000-8000)*0.1+3000*0.03);
         }else if(salary<=85000){
             System.out.println("交税："+((salary-5000)*0.35));
         }else{
