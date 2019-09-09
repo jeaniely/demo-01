@@ -29,4 +29,27 @@ public class Example {
      *        3） 怎么调用： 是否需要传参--实参，是否有返回值
      *
      * **/
+    /**
+     * 1:定义两个方法：
+     *    1）用于数组的输入，--从控制台
+     *       void input(int[] array,int num){
+     *           Scanner scan=new Scanner(System.in);
+     *           for(int i=0;i<num;i++){
+     *                System.out.print("输入第"+(i+1)+"数值);
+     *               int x=scan.nextInt();
+     *               array[i]=x;
+     *           }
+     *       }
+     *    2） 数组的输出
+     *      void output(int[] array){
+     *          Sytem.out.print("输出数值");
+     *          for(int i=0;i<array.length;i++){
+     *              System.out.print(" "+array[i]);
+     *          }
+     *      }
+     *
+     *    2:  输入一个字符串和一个字符，判断此字符是否在字符串中，如果在返回true，返回false
+     *
+     * **/
+
 }
