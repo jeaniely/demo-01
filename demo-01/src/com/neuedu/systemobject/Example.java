@@ -27,11 +27,24 @@ public class Example {
      *
      *   String  字符串
      *
+     *   作业题：
+     *   1：int与Integer的区别
+     *
+     *   2：String，StringBuffer，StringBulider的区别
+     *
+     *   3：  读程序，输出结果
+     *        Integer i1=12；
+     *       Integer i2=12；
+     *       System.out.println(i1==i2);
+     *      Integer i3=129；
+     *       Integer i4=129；
+     *       System.out.println(i3==i4);
      *
      *
-     *
-     *
+     *  作业2:
+     *    1:
      */
+
 
 
 
