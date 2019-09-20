@@ -1,6 +1,7 @@
 package com.neuedu.systemobject.list01;
 
 import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.List;
 
 public class ListExample_01 {
@@ -24,6 +25,11 @@ public class ListExample_01 {
         //数组的长度，字符串的长度，集合长度
         for(Integer i:list){
             System.out.print(i+"   ");
+        }
+        System.out.println("\n=========================");
+        Iterator<Integer> integerIterator=list.iterator();
+        for(;integerIterator.hasNext();){
+            System.out.println(integerIterator.next());
         }
     }
 }

@@ -1,5 +1,9 @@
 package com.neuedu.systemobject;
 
+import java.util.HashMap;
+import java.util.Hashtable;
+import java.util.Map;
+
 public class Example {
     /**
      * 1：那些app
@@ -41,11 +45,23 @@ public class Example {
      *       System.out.println(i3==i4);
      *
      *
-     *  作业2:
-     *    1:
+     *
+     *  键值对
+     *  Map ：key 和 value
+     *      key---身份证
+     *      value -- 个人信息
+     *   Map----HashMap
+     *          HashTable
+     *
+     *
+     *
+     *
+     *
      */
 
+    public static void main(String[] args) {
 
+    }
 
 
 

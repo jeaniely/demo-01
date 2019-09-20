@@ -16,7 +16,7 @@ public class ListExample_02 {
         student1.setSid(113);
         student1.setSname("lili");
         student1.setSex(0);
-        student.setSbirth(StringToDATE.getDateFromString("1992-08-09"));
+        student1.setSbirth(StringToDATE.getDateFromString("1992-08-09"));
         list.add(student1);
 
         System.out.println(list);
