@@ -53,9 +53,29 @@ public class Example {
      *   Map----HashMap
      *          HashTable
      *
+     *异常： 是在程序运行时，产生的不可预计的错误
+     * Object---Throwable---Error
+     *                         虚拟机产生的，如内存不足
+     *                   ---异常
+     *                         如：IO异常，SQL异常，Runtime异常
+     *                         ---  检查型异常
+     *                                必须要处理
+     *                                IO异常，SQL异常
+     *                         --- 非检查型异常
+     *                                 可以处理，可以不处理
+     *                               Runtime异常
      *
+     *处理：1：抛出异常：使用throws  ，在方法声明中进行抛出，系统处理
+     *     2：捕获异常：
+     *        使用try{
+     *            可能发生异常的语句
+     *        } catch(可能发生的异常类 e){
+     *            处理
+     *        }finally{
+               System.out.println("无论异常是否发生，都要进行处理");
+             }
      *
-     *
+     *throws 与throw区别
      *
      */
 
