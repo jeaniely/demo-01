@@ -77,6 +77,14 @@ public class Example {
      *
      *throws 与throw区别
      *
+     * String 、Stringbuffer、StringBuilder
+     * 字符串的类
+     * 其中String：不可变字符串： private final char value[];
+     * 可变字符串：
+     * StringBuffer：JDK1.0 ，线程安全，适合多线程
+     * StringBuilder JDK1.5 ，适合单线程，性能较快
+     *
+     *
      */
 
     public static void main(String[] args) {
