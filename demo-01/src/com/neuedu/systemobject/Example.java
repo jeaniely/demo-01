@@ -87,9 +87,16 @@ public class Example {
      *Java课程安排：
      * 1：IO流
      *    File
-     *    节点流
-     *     字节流
-     *     字符流
+     *    数据流：
+     *    按照处理方式：
+     *        字节流：Input  Output
+     *        字符流  Reader Writer
+     *     按照流的方向：-- 程序
+     *         输入流：
+     *         输出流：
+     *    功能不能：
+     *    节点流：从节点直接取出|存放数据
+     *     处理流：String Int double 自定义对象
      *
      *
      *
