@@ -84,6 +84,25 @@ public class Example {
      * StringBuffer：JDK1.0 ，线程安全，适合多线程
      * StringBuilder JDK1.5 ，适合单线程，性能较快
      *
+     *Java课程安排：
+     * 1：IO流
+     *    File
+     *    节点流
+     *     字节流
+     *     字符流
+     *
+     *
+     *
+     *
+     *
+     * 2：多线程
+     *
+     * 3：JDBC
+     *
+     *
+     *
+     *
+     *
      *
      */
 
