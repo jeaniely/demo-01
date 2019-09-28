@@ -10,11 +10,11 @@ import java.io.IOException;
  */
 public class FileInputExample {
     public static void main(String[] args) {
+
         File file=new File("file01.txt");
         if(!file.exists()){
             return;
         }
-
         //输入流
         FileInputStream fis=null;
 
