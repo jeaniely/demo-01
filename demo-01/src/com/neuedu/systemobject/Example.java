@@ -6,7 +6,7 @@ import java.util.Map;
 
 public class Example {
     /**
-     * 1：那些app
+     * 1：那些api
      *    java.lang  默认 常用的包装类、比较、显示等，Object
      *    java.util 工具包：集合、日期等
      *    java.io  输入和输出流
@@ -122,9 +122,19 @@ public class Example {
      *
      *
      * 3：JDBC
+     *  java.sql
+     *    接口
+     *    对于mysql：相对应的jar导入
      *
-     *
-     *
+     *    步骤：1：导入jar包
+     *          2：导入驱动：版本4.0之后，能够自动导入，但是如果开发的时网站，驱动需要手动导入
+     *          3：连接数据库
+     *             Connection对象：DriverManager类生产
+     *          4：PreparedStatement对象，加载sql，参数的导入，执行
+     *          5：1）查询---》结果集：ResultSet进行处理
+     *             2）增，删，改===》影响的行数 int
+     *          6：提交：自动提交，手动提交
+     *          7：关闭：从里往外关
      *
      *
      *
